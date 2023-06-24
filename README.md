@@ -1,14 +1,14 @@
 # Shopping bag project
 This is a shopping bag application built with Vue 3.
 
-##Features
+## Features
 - Display a list of products.
 - Add products to the shopping bag.
 - Remove products from the shopping bag.
 - Calculate the total price of the items in the shopping bag.
 - Responsive design for different screen sizes.
 
-##Technologies Used
+## Technologies Used
 - Vue 3
 - Vuex for state management
 - Vue Router for routing
