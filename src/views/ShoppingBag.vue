@@ -7,7 +7,7 @@
           v-for="(product, index) in productsInBag"
           :key="index"
         >
-          <div class="remove" @click="this.$store.dispatch('removeFromBag', product.id)">Remover Produto</div>
+          <div class="remove" @click="this.$store.dispatch('removeFromBag', product.id)">Remove</div>
           <div class="photo">
             <img :src="product.image" alt="" />
           </div>
@@ -28,11 +28,11 @@
             >
           </div>
         </div>
-        <div class="grand-total">Total do pedido: R$ {{orderTotal()}}</div>
+        <div class="grand-total">Total: R$ {{orderTotal()}}</div>
       </template>
 
       <template v-else>
-        <h4>Não há items no carrinho ainda</h4>
+        <h4>There's no items in your cart yet</h4>
       </template>
     </div>
   </div>
